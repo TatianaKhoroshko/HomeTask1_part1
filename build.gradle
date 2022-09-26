@@ -14,7 +14,8 @@ ext{
 }
 
 dependencies {
-    implementation ("com.codeborne:selenide:6.7.3")
+    implementation ('com.codeborne:selenide:6.7.4')
+    implementation (group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2')
     testImplementation ("org.junit.jupiter:junit-jupiter-api:$junit5Ver")
     testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:$junit5Ver")
 }
